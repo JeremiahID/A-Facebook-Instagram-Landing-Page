@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body , html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgb(13, 13, 97),blue);
+}
+
+nav{
+    height: 9%;
+    border-bottom: 1px solid whitesmoke;
+    background-image: linear-gradient(to right, rgb(13, 13, 97),blue);
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.navBar > img{
+margin-top: 7px;
+height: 50px;
+width: 50px;
+}
+
+.navBar > a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 17px;
+    transition-property: transform;
+   
+
+
+}
+a:hover{
+    margin-top: 25px;
+    transform:scale(1.2);
+    transition-duration: 2s;
+    transition-timing-function: 1s;
+    transition-delay: 0s;
+    color: rgba(38, 109, 240, 0.966);
+    
+    
+}
+
+button{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border: 0px solid rgb(9, 9, 172);
+    border-radius: 50px;
+    color: whitesmoke;
+    font-family:'calibri';
+    font-size: 20px;
+    font-weight: 700;
+    background-color:hotpink ;
+   
+}
+.navBar > button{
+    margin-top: 10px;
+     
+
+}
+.firstContainer{
+
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 100%;
+    height: 70%;
+}
+.firstContainer > img{
+    float: right;
+    height: 60%;
+    position: absolute;
+
+}
+img:hover{
+    transform:rotate(360deg);
+    transition-duration: 3s;
+    transition-timing-function: 1s;
+    transition-delay: 0s;
+    
+}
+.firstContainer > h1{
+    font-family: 'gabriola';
+    color: whitesmoke;
+    word-spacing: 5px;
+    font-size: 50px;
+    float: left;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.para{
+    font-size: 20px;
+    font-family: calibri;
+
+}
+h1 > button{
+    margin-top: 10px;
+
+}
+button:hover{
+    transform:translateX(80px);
+    transition-duration: 1s;
+    transition-timing-function: 1s;
+    transition-delay: 0s;
+    
+}
+.secondContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    margin-left: 100px;
+}
+.inc > p{
+    padding-top: 5px;
+}
+.inc >h1 {
+    line-height: 23px;
+}
+.facebook > img{
+    width: 40px;
+    height: 40px;
+}
+.facebook > p{
+    padding-top: 5px;
+}
+@keyframes Slide {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(3.5);
+    }
+    
+}
+.slide{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to top left, rgb(26, 26, 175), whitesmoke);
+    border-radius: 50px;
+    animation-name: Slide;
+    animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: normal;
+}
