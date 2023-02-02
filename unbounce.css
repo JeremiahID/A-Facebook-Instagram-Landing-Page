@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 187, 0);
+}
+
+.boxGreen{
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(to top ,rgba(255, 187, 0, 0.842), green);
+    border: 0px solid transparent;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    opacity: 50%;
+}
+.boxWhiteB{
+    border: 3px solid whitesmoke;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    top: 20px;
+    left: 130px;
+}
+
+.blackLeft{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: 150px;
+    width: 30px;
+    background-color: black;
+
+}
+
+.boxWhite{
+    height: 250px;
+    width: 300px;
+    background-image: linear-gradient(to top,whitesmoke,rgba(255, 187, 0, 0.842));
+    border: 0px solid transparent;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    opacity: 70%;
+}
+.boxGreenB{
+    border: 3px solid green;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 20px;
+    right: 80px;
+}
+
+.blackRight{
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    height: 100px;
+    width: 30px;
+    background-color: black;
+
+}
+
+.earPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earPhone >img{
+    height: 400px;
+    width: 700px;
+    z-index: 1;
+    margin-top: 150px;
+}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.logo > img{
+    height: 80px;
+    width: 200px;
+}
+
+.logoBear{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+.logoBear > img{
+
+    height: 250px;
+    width: 400px;
+}
+
+.logoCoffee{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: 1;
+}
+
+.logoCoffee >img{
+    width: 400px;
+    height: 230px;
+}
+
+.trapeGreen{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 1;
+    background-color: green;
+    
+}
